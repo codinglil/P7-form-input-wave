@@ -1,5 +1,5 @@
 body {
-  background-color: steelblue;
+  background-color: rgb(46, 148, 182);
   color: white;
   display: flex;
   align-items: center;
@@ -22,7 +22,7 @@ body {
 
 .container a {
   text-decoration: none;
-  color: lightblue;
+  color: rgb(115, 204, 233);
 }
 
 .form-control {
@@ -44,12 +44,12 @@ body {
 .form-control input:focus,
 .form-control input:valid {
   outline: 0;
-  border-bottom-color: lightblue;
+  border-bottom-color: rgb(115, 204, 233);
 }
 
 .btn {
   cursor: pointer;
-  background-color: lightblue;
+  background-color: white;
   padding: 15px;
   font-size: 16px;
   width: 100%;
@@ -82,6 +82,6 @@ body {
 
 .form-control input:focus + label span,
 .form-control input:valid + label span {
-  color: rgb(177, 232, 250);
+  color: rgb(115, 204, 233);
   transform: translateY(-30px);
 }
